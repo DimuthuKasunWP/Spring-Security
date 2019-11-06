@@ -1,4 +1,4 @@
-package org.baeldung.persistence.model;
+package org.ucsc.persistence.model;
 
 import java.util.Collection;
 

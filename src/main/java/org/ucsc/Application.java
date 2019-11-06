@@ -1,4 +1,4 @@
-package org.baeldung;
+package org.ucsc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

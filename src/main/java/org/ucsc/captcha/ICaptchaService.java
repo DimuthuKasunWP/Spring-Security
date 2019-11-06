@@ -1,4 +1,4 @@
-package org.baeldung.captcha;
+package org.ucsc.captcha;
 
 import org.baeldung.web.error.ReCaptchaInvalidException;
 

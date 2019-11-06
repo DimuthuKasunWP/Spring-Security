@@ -1,4 +1,4 @@
-package org.baeldung.captcha;
+package org.ucsc.captcha;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;

@@ -1,12 +1,12 @@
-package org.baeldung.service;
+package org.ucsc.service;
 
 import com.google.common.base.Strings;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.exception.GeoIp2Exception;
 import com.maxmind.geoip2.model.CityResponse;
-import org.baeldung.persistence.dao.DeviceMetadataRepository;
-import org.baeldung.persistence.model.DeviceMetadata;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.dao.DeviceMetadataRepository;
+import org.ucsc.persistence.model.DeviceMetadata;
+import org.ucsc.persistence.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

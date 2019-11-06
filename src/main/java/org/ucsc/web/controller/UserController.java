@@ -1,9 +1,9 @@
-package org.baeldung.web.controller;
+package org.ucsc.web.controller;
 
 import java.util.Locale;
 
-import org.baeldung.security.ActiveUserStore;
-import org.baeldung.service.IUserService;
+import org.ucsc.security.ActiveUserStore;
+import org.ucsc.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,11 +1,11 @@
-package org.baeldung.web.dto;
+package org.ucsc.web.dto;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import org.baeldung.validation.PasswordMatches;
-import org.baeldung.validation.ValidEmail;
-import org.baeldung.validation.ValidPassword;
+import org.ucsc.validation.PasswordMatches;
+import org.ucsc.validation.ValidEmail;
+import org.ucsc.validation.ValidPassword;
 
 @PasswordMatches
 public class UserDto {

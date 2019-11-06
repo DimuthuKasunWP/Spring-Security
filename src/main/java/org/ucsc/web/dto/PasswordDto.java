@@ -1,6 +1,6 @@
-package org.baeldung.web.dto;
+package org.ucsc.web.dto;
 
-import org.baeldung.validation.ValidPassword;
+import org.ucsc.validation.ValidPassword;
 
 public class PasswordDto {
 

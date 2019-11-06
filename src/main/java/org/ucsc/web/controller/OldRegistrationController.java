@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.ucsc.web.controller;
 
 import java.util.Calendar;
 import java.util.Locale;
@@ -7,12 +7,12 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
-import org.baeldung.persistence.model.PasswordResetToken;
-import org.baeldung.persistence.model.User;
-import org.baeldung.persistence.model.VerificationToken;
-import org.baeldung.registration.OnRegistrationCompleteEvent;
-import org.baeldung.service.IUserService;
-import org.baeldung.web.dto.UserDto;
+import org.ucsc.persistence.model.PasswordResetToken;
+import org.ucsc.persistence.model.User;
+import org.ucsc.persistence.model.VerificationToken;
+import org.ucsc.registration.OnRegistrationCompleteEvent;
+import org.ucsc.service.IUserService;
+import org.ucsc.web.dto.UserDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

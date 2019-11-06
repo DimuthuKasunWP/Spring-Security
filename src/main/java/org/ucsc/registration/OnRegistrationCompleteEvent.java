@@ -1,8 +1,8 @@
-package org.baeldung.registration;
+package org.ucsc.registration;
 
 import java.util.Locale;
 
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.model.User;
 import org.springframework.context.ApplicationEvent;
 
 @SuppressWarnings("serial")

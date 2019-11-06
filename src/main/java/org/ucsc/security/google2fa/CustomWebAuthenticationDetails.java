@@ -1,4 +1,4 @@
-package org.baeldung.security.google2fa;
+package org.ucsc.security.google2fa;
 
 import javax.servlet.http.HttpServletRequest;
 

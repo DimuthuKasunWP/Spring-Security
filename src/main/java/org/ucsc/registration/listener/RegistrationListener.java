@@ -1,10 +1,10 @@
-package org.baeldung.registration.listener;
+package org.ucsc.registration.listener;
 
 import java.util.UUID;
 
-import org.baeldung.persistence.model.User;
-import org.baeldung.registration.OnRegistrationCompleteEvent;
-import org.baeldung.service.IUserService;
+import org.ucsc.persistence.model.User;
+import org.ucsc.registration.OnRegistrationCompleteEvent;
+import org.ucsc.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.MessageSource;

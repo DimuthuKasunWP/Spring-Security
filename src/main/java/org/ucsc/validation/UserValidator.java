@@ -1,4 +1,4 @@
-package org.baeldung.validation;
+package org.ucsc.validation;
 
 import org.baeldung.web.dto.UserDto;
 import org.springframework.validation.Errors;

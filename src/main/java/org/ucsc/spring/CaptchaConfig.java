@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,7 +9,7 @@ import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@ComponentScan(basePackages = { "org.baeldung.captcha" })
+@ComponentScan(basePackages = { "org.ucsc.captcha" })
 public class CaptchaConfig {
     @Bean
     public ClientHttpRequestFactory clientHttpRequestFactory() {

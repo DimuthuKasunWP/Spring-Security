@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
 import com.maxmind.geoip2.DatabaseReader;
 import org.springframework.context.annotation.Bean;

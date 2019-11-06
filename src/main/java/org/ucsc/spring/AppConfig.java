@@ -1,6 +1,6 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
-import org.baeldung.security.ActiveUserStore;
+import org.ucsc.security.ActiveUserStore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

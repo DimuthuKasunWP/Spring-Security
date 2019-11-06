@@ -1,4 +1,4 @@
-package org.baeldung.persistence.dao;
+package org.ucsc.persistence.dao;
 
 import org.baeldung.persistence.model.PasswordResetToken;
 import org.baeldung.persistence.model.User;

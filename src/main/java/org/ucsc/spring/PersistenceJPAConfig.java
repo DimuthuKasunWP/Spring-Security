@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
 import java.util.Properties;
 
@@ -21,8 +21,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.dao")
+@ComponentScan({ "org.ucsc.persistence" })
+@EnableJpaRepositories(basePackages = "org.ucsc.persistence.dao")
 public class PersistenceJPAConfig {
 
     @Autowired

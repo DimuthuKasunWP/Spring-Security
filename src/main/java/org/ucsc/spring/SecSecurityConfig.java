@@ -1,9 +1,9 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.security.CustomRememberMeServices;
-import org.baeldung.security.google2fa.CustomAuthenticationProvider;
-import org.baeldung.security.google2fa.CustomWebAuthenticationDetailsSource;
+import org.ucsc.persistence.dao.UserRepository;
+import org.ucsc.security.CustomRememberMeServices;
+import org.ucsc.security.google2fa.CustomAuthenticationProvider;
+import org.ucsc.security.google2fa.CustomWebAuthenticationDetailsSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -27,7 +27,7 @@ import org.springframework.security.web.authentication.logout.LogoutSuccessHandl
 import org.springframework.security.web.authentication.rememberme.InMemoryTokenRepositoryImpl;
 
 @Configuration
-@ComponentScan(basePackages = { "org.baeldung.security" })
+@ComponentScan(basePackages = { "org.ucsc.security" })
 // @ImportResource({ "classpath:webSecurityConfig.xml" })
 @EnableWebSecurity
 public class SecSecurityConfig extends WebSecurityConfigurerAdapter {

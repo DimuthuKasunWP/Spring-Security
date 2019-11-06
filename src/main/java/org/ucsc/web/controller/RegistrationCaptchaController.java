@@ -1,11 +1,11 @@
-package org.baeldung.web.controller;
+package org.ucsc.web.controller;
 
-import org.baeldung.captcha.ICaptchaService;
-import org.baeldung.persistence.model.User;
-import org.baeldung.registration.OnRegistrationCompleteEvent;
-import org.baeldung.service.IUserService;
-import org.baeldung.web.dto.UserDto;
-import org.baeldung.web.util.GenericResponse;
+import org.ucsc.captcha.ICaptchaService;
+import org.ucsc.persistence.model.User;
+import org.ucsc.registration.OnRegistrationCompleteEvent;
+import org.ucsc.service.IUserService;
+import org.ucsc.web.dto.UserDto;
+import org.ucsc.web.util.GenericResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

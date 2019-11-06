@@ -1,4 +1,4 @@
-package org.baeldung.web.util;
+package org.ucsc.web.util;
 
 import java.util.List;
 import java.util.stream.Collectors;

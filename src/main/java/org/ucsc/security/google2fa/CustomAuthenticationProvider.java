@@ -1,7 +1,7 @@
-package org.baeldung.security.google2fa;
+package org.ucsc.security.google2fa;
 
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.dao.UserRepository;
+import org.ucsc.persistence.model.User;
 import org.jboss.aerogear.security.otp.Totp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -18,7 +18,8 @@ public class CustomAuthenticationProvider extends DaoAuthenticationProvider {
 
     @Override
     public Authentication authenticate(Authentication auth) throws AuthenticationException {
-        final User user = userRepository.findByEmail(auth.getName());
+
+        User user = userRepository.findByEmail(auth.getName());
         if ((user == null)) {
             throw new BadCredentialsException("Invalid username or password");
         }

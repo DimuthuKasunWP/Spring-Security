@@ -1,4 +1,4 @@
-package org.baeldung.web.error;
+package org.ucsc.web.error;
 
 public final class UserAlreadyExistException extends RuntimeException {
 

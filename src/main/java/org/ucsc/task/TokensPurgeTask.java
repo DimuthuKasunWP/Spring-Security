@@ -1,7 +1,7 @@
-package org.baeldung.task;
+package org.ucsc.task;
 
-import org.baeldung.persistence.dao.PasswordResetTokenRepository;
-import org.baeldung.persistence.dao.VerificationTokenRepository;
+import org.ucsc.persistence.dao.PasswordResetTokenRepository;
+import org.ucsc.persistence.dao.VerificationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package org.baeldung.web.error;
+package org.ucsc.web.error;
 
-import org.baeldung.web.util.GenericResponse;
+import org.ucsc.web.util.GenericResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpHeaders;

@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.ucsc.web.controller;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
@@ -10,16 +10,16 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
-import org.baeldung.persistence.model.Privilege;
-import org.baeldung.persistence.model.User;
-import org.baeldung.persistence.model.VerificationToken;
-import org.baeldung.registration.OnRegistrationCompleteEvent;
-import org.baeldung.security.ISecurityUserService;
-import org.baeldung.service.IUserService;
-import org.baeldung.web.dto.PasswordDto;
-import org.baeldung.web.dto.UserDto;
-import org.baeldung.web.error.InvalidOldPasswordException;
-import org.baeldung.web.util.GenericResponse;
+import org.ucsc.persistence.model.Privilege;
+import org.ucsc.persistence.model.User;
+import org.ucsc.persistence.model.VerificationToken;
+import org.ucsc.registration.OnRegistrationCompleteEvent;
+import org.ucsc.security.ISecurityUserService;
+import org.ucsc.service.IUserService;
+import org.ucsc.web.dto.PasswordDto;
+import org.ucsc.web.dto.UserDto;
+import org.ucsc.web.error.InvalidOldPasswordException;
+import org.ucsc.web.util.GenericResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

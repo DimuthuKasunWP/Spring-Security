@@ -1,4 +1,4 @@
-package org.baeldung.service;
+package org.ucsc.service;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -11,13 +11,13 @@ import java.util.stream.Collectors;
 
 import javax.transaction.Transactional;
 
-import org.baeldung.persistence.dao.PasswordResetTokenRepository;
-import org.baeldung.persistence.dao.RoleRepository;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.dao.VerificationTokenRepository;
-import org.baeldung.persistence.model.PasswordResetToken;
-import org.baeldung.persistence.model.User;
-import org.baeldung.persistence.model.VerificationToken;
+import org.ucsc.persistence.dao.PasswordResetTokenRepository;
+import org.ucsc.persistence.dao.RoleRepository;
+import org.ucsc.persistence.dao.UserRepository;
+import org.ucsc.persistence.dao.VerificationTokenRepository;
+import org.ucsc.persistence.model.PasswordResetToken;
+import org.ucsc.persistence.model.User;
+import org.ucsc.persistence.model.VerificationToken;
 import org.baeldung.web.dto.UserDto;
 import org.baeldung.web.error.UserAlreadyExistException;
 import org.springframework.beans.factory.annotation.Autowired;

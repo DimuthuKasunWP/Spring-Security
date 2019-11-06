@@ -1,4 +1,4 @@
-package org.baeldung.validation;
+package org.ucsc.validation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

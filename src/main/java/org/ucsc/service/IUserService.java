@@ -1,12 +1,12 @@
-package org.baeldung.service;
+package org.ucsc.service;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Optional;
 
-import org.baeldung.persistence.model.PasswordResetToken;
-import org.baeldung.persistence.model.User;
-import org.baeldung.persistence.model.VerificationToken;
+import org.ucsc.persistence.model.PasswordResetToken;
+import org.ucsc.persistence.model.User;
+import org.ucsc.persistence.model.VerificationToken;
 import org.baeldung.web.dto.UserDto;
 import org.baeldung.web.error.UserAlreadyExistException;
 

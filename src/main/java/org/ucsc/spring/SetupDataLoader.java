@@ -1,16 +1,16 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import org.baeldung.persistence.dao.PrivilegeRepository;
-import org.baeldung.persistence.dao.RoleRepository;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.Privilege;
-import org.baeldung.persistence.model.Role;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.dao.PrivilegeRepository;
+import org.ucsc.persistence.dao.RoleRepository;
+import org.ucsc.persistence.dao.UserRepository;
+import org.ucsc.persistence.model.Privilege;
+import org.ucsc.persistence.model.Role;
+import org.ucsc.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

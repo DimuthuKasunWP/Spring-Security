@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.ucsc.spring;
 
 import java.util.Locale;
 
@@ -24,7 +24,7 @@ import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 
 @Configuration
-@ComponentScan(basePackages = { "org.baeldung.web" })
+@ComponentScan(basePackages = { "org.ucsc.web" })
 @EnableWebMvc
 public class MvcConfig implements WebMvcConfigurer {
 
