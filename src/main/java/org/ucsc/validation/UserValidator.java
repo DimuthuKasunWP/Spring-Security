@@ -1,6 +1,6 @@
 package org.ucsc.validation;
 
-import org.baeldung.web.dto.UserDto;
+import org.ucsc.web.dto.UserDto;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;

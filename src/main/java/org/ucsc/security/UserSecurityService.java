@@ -1,13 +1,13 @@
-package org.baeldung.security;
+package org.ucsc.security;
 
 import java.util.Arrays;
 import java.util.Calendar;
 
 import javax.transaction.Transactional;
 
-import org.baeldung.persistence.dao.PasswordResetTokenRepository;
-import org.baeldung.persistence.model.PasswordResetToken;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.dao.PasswordResetTokenRepository;
+import org.ucsc.persistence.model.PasswordResetToken;
+import org.ucsc.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

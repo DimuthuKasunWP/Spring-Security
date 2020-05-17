@@ -1,7 +1,7 @@
 package org.ucsc.persistence.dao;
 
-import org.baeldung.persistence.model.PasswordResetToken;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.model.PasswordResetToken;
+import org.ucsc.persistence.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

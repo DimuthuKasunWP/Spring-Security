@@ -1,4 +1,4 @@
-package org.baeldung.security;
+package org.ucsc.security;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,10 +6,10 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.Privilege;
-import org.baeldung.persistence.model.Role;
-import org.baeldung.persistence.model.User;
+import org.ucsc.persistence.dao.UserRepository;
+import org.ucsc.persistence.model.Privilege;
+import org.ucsc.persistence.model.Role;
+import org.ucsc.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

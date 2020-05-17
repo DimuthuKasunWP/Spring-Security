@@ -1,7 +1,7 @@
-package org.baeldung.captcha;
+package org.ucsc.captcha;
 
-import org.baeldung.web.error.ReCaptchaInvalidException;
-import org.baeldung.web.error.ReCaptchaUnavailableException;
+import org.ucsc.web.error.ReCaptchaInvalidException;
+import org.ucsc.web.error.ReCaptchaUnavailableException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

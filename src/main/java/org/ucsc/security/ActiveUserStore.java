@@ -1,4 +1,4 @@
-package org.baeldung.security;
+package org.ucsc.security;
 
 import java.util.ArrayList;
 import java.util.List;

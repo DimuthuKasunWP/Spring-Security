@@ -2,8 +2,8 @@ package org.ucsc.spring;
 
 import java.util.Locale;
 
-import org.baeldung.validation.EmailValidator;
-import org.baeldung.validation.PasswordMatchesValidator;
+import org.ucsc.validation.EmailValidator;
+import org.ucsc.validation.PasswordMatchesValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.MessageSource;

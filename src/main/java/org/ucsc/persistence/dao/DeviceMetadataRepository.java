@@ -1,6 +1,6 @@
 package org.ucsc.persistence.dao;
 
-import org.baeldung.persistence.model.DeviceMetadata;
+import org.ucsc.persistence.model.DeviceMetadata;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

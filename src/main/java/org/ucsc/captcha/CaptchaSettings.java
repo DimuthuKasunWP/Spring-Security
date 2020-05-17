@@ -1,4 +1,4 @@
-package org.baeldung.captcha;
+package org.ucsc.captcha;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

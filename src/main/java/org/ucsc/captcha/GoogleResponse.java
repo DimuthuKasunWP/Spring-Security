@@ -1,5 +1,5 @@
 
-package org.baeldung.captcha;
+package org.ucsc.captcha;
 
 import com.fasterxml.jackson.annotation.*;
 

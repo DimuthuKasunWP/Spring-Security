@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.ucsc.persistence.model.PasswordResetToken;
 import org.ucsc.persistence.model.User;
 import org.ucsc.persistence.model.VerificationToken;
-import org.baeldung.web.dto.UserDto;
-import org.baeldung.web.error.UserAlreadyExistException;
+import org.ucsc.web.dto.UserDto;
+import org.ucsc.web.error.UserAlreadyExistException;
 
 public interface IUserService {
 

@@ -1,4 +1,4 @@
-package org.baeldung.security;
+package org.ucsc.security;
 
 public interface ISecurityUserService {
 

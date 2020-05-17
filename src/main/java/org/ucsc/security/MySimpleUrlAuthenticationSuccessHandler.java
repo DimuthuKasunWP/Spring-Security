@@ -1,7 +1,7 @@
-package org.baeldung.security;
+package org.ucsc.security;
 
-import org.baeldung.persistence.model.User;
-import org.baeldung.service.DeviceService;
+import org.ucsc.persistence.model.User;
+import org.ucsc.service.DeviceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

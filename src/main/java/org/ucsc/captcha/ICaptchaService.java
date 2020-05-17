@@ -1,6 +1,6 @@
 package org.ucsc.captcha;
 
-import org.baeldung.web.error.ReCaptchaInvalidException;
+import org.ucsc.web.error.ReCaptchaInvalidException;
 
 public interface ICaptchaService {
     void processResponse(final String response) throws ReCaptchaInvalidException;

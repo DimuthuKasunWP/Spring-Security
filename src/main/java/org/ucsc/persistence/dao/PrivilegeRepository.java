@@ -1,6 +1,6 @@
 package org.ucsc.persistence.dao;
 
-import org.baeldung.persistence.model.Privilege;
+import org.ucsc.persistence.model.Privilege;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PrivilegeRepository extends JpaRepository<Privilege, Long> {
